@@ -1,17 +1,18 @@
 # Smart Medication Reminder System
 
-## Overview
+## 📌 Overview
 
-A Python-based medication management system integrated with MySQL database to store and track medicine schedules.
+The Smart Medication Reminder System is a Python-based application integrated with MySQL database to manage and track medicine schedules efficiently.
 
-## Features
+## 🚀 Features
 
 - Add medicines with dosage and reminder time
 - View all stored medicines
 - Time-based reminder checking
 - MySQL database integration
+- CRUD operations implementation
 
-## Technologies Used
+## 🛠 Technologies Used
 
 - Python
 - MySQL
@@ -19,8 +20,26 @@ A Python-based medication management system integrated with MySQL database to st
 - CSS
 - Git & GitHub
 
-## How to Run
+## 🗄 Database Schema
 
-1. Install mysql-connector-python
-2. Setup MySQL database
-3. Run: python main.py
+Table: medicines
+
+- id (INT, Primary Key)
+- name (VARCHAR)
+- dosage (VARCHAR)
+- reminder_time (TIME)
+- notes (VARCHAR)
+
+## ▶ How to Run
+
+1. Install dependencies:
+   pip install mysql-connector-python
+2. Create database in MySQL
+3. Run:
+   python main.py
+
+## 📈 Future Enhancements
+
+- GUI integration
+- Email/SMS reminders
+- User authentication
