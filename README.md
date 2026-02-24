@@ -18,6 +18,7 @@ The Smart Medication Reminder System is a Python-based application integrated wi
 - MySQL
 - HTML
 - CSS
+- Javascript
 - Git & GitHub
 
 ## 🗄 Database Schema
